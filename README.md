@@ -144,6 +144,37 @@ ALGORITHM:
 
 5> End
 
+# Add multiple nodes at the start of the Linked List:
+
+This program demonstrates how to create a singly linked list and insert nodes at the beginning of the list. Each node contains a value and a pointer to the next node. The list can be traversed to display all elements.
+
+ALGORITHM:
+
+1> Start
+
+2> Define Link (Node) class with:
+
+3> Define insert_head function
+
+* Create a new node with given data
+
+* Set new node’s next pointer to current head
+
+* Update head to point to new node
+
+4> Define disp function
+
+* Traverse from head to end
+
+* Print each node’s data followed by ->
+
+* End with NULL
+
+5> In main function
+
+* Initialize head = NULL
+
+6> End
 
 
 # Conclusion:
