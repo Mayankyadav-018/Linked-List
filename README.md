@@ -68,6 +68,84 @@ In C++, a Linked List is a linear data structure where elements (called nodes) a
 * Can implement advanced data structures (stacks, queues, graphs).
 
 
+# Single node of the Linked List:
+
+This program demonstrates how to create a node for a singly linked list. Each node contains a value and a pointer to the next node. Initially, the next pointer is set to NULL.
+
+ALGORITHM:
+
+1> Start
+
+2> Define Node class with:
+
+* Public members:
+
+val : stores node data
+
+next : pointer to next node
+
+* Constructor Node(int data) :
+
+Assign val = data
+
+Initialize next = NULL
+
+3> In main function
+
+* Create a Node object n with value 20
+
+* Display n->val and n->next
+
+4> End
+
+# Add multiple nodes at the end of the Linked List:
+
+This program demonstrates how to create a singly linked list and insert nodes at the end. Each node contains a value and a pointer to the next node. The list can be traversed to display all elements.
+
+ALGORITHM:
+
+1> Start
+
+2> Define Node class with:
+
+* Public members:
+
+  * val : stores node data
+
+  * next : pointer to next node
+
+* Constructor Node(int data) :
+
+  * Assign val = data
+
+  * Initialize next = NULL
+
+3> Define LinkedList class with:
+
+* Public member head : pointer to the first node
+
+* Constructor initializes head = NULL
+
+* Method insertAtEnd(data) :
+
+   * Create a new node with given data
+
+   * If head is NULL, set head = newNode
+
+   * Else, traverse to the last node and set its next = newNode
+
+4> In main function
+
+* Create LinkedList object list
+
+* Insert elements 10, 20, 30, 40 at the end
+
+* Display the linked list
+
+5> End
+
+
+
 # Conclusion:
 
 Linked lists in C++ provide a flexible way to store and manage data dynamically. They allow efficient insertion and deletion compared to arrays, though at the cost of extra memory for pointers and sequential access. Overall, they are a powerful foundation for implementing advanced data structures.
